@@ -1,4 +1,10 @@
 ### 14.04.2023
+```Commit:d330c29```
+
+- Изменение имен в Caesar
+  * get_encryption_char => __get_encryption_char (приватный метод)
+  * get_decryption_char => __get_decryption_char (приватный метод)
+  * get_index => __get_index (приватный метод)
 
 ```Commit:03df9fd```
 
