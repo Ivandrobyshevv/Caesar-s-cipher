@@ -1,3 +1,7 @@
+```Commit:03608f6```
+- Добавлены тесты к функции encryption_caesar
+  * test_exceptions.py - Тесты к функции encryption_caesar
+
 ```Commit:745e843```
 
 - Добавлены модули: **src/caesar.py,** **src/main.py.**

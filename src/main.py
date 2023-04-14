@@ -18,6 +18,8 @@ def start():
             continue
         if operator:
             result = caesar.encryption_caesar(text=text, shift=shift)
+        else:
+            result = caesar.decryption_caesar(text=text, shift=shift)
         print(result)
 
 
