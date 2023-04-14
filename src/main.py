@@ -10,7 +10,10 @@ def get_caesar_result(operator: bool, caesar: Caesar, text: str, shift: int) -> 
 
 
 def show_result(text: str, result: str) -> None:
-    print(f'Входной текст: {text}\nРезультат: {result}\n')
+    print('-' * 20)
+    print(f'Входной текст: {text}\nРезультат: {result}')
+    print('-' * 20)
+    print()
 
 
 def start():
@@ -30,6 +33,13 @@ def start():
             continue
         caesar_result = get_caesar_result(operator, caesar, text, shift)
         show_result(text, caesar_result)
+        repeat = input("Повторить операцию [y/n]?: ")
+        if repeat.lower() in ('no', 'n', 'н', 'нет'):
+            print("До свидания!")
+            break
+        if repeat.lower() not in ('y', 'yes', 'д', 'да'):
+            print(f"Не известное значение - {repeat}")
+            break
 
 
 if __name__ == '__main__':
