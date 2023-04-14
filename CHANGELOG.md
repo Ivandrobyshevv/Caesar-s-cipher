@@ -1,6 +1,14 @@
+### 14.04.2023
+
+```Commit:55a7bd2```
+
+- Добавлена функция **decryption_caesar()** и **test_decryption_caesar.py** к ней
+    * test_decryption_caesar.py - Тесты
+
 ```Commit:03608f6```
-- Добавлены тесты к функции encryption_caesar
-  * test_exceptions.py - Тесты к функции encryption_caesar
+
+- Добавлены тесты к функции **encryption_caesar()**
+    * test_exceptions.py - Тесты к функции encryption_caesar
 
 ```Commit:745e843```
 

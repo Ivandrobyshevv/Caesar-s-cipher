@@ -1,5 +1,5 @@
-from caesar import Caesar
-from db import ALFABET
+from src.caesar import Caesar
+from src.db import ALFABET
 
 
 def test_decryption_caesar_ru():
