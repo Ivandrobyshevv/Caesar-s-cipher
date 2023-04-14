@@ -1,5 +1,16 @@
 ### 14.04.2023
 
+```Commit:03df9fd```
+
+- Рефакторинг main.py
+    * Добавлена функция get_caesar_result()
+    * Добавлена функция show_result()
+- Рефакторинг controller.py
+    * Было: get_alfabet() => get_alfabet_or_none()
+    * Было: get_text() => get_text_or_none()
+    * Было: get_operation() => get_operation_or_none()
+    * Было: get_shift => get_shift_or_none()
+
 ```Commit:55a7bd2```
 
 - Добавлена функция **decryption_caesar()** и **test_decryption_caesar.py** к ней
