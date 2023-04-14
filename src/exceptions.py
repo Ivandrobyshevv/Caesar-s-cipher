@@ -35,7 +35,7 @@ def check_shift(length_alfabet: int, shift_value: str) -> Union[int, None]:
     if shift_value.isdigit():
         try:
             shift = int(shift_value)
-            if shift > length_alfabet-1 or shift < 1:
+            if shift > length_alfabet - 1 or shift < 1:
                 print(f"Не корректное значение, вы ввели {shift_value}!")
                 return
             return shift
