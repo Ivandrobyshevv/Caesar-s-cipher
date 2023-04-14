@@ -1,10 +1,16 @@
 ### 14.04.2023
+
+``Commit:bcbc731``
+
+- Добавлен выход из главного цикла
+    * После того как программа выдать результат, появляться строка "Повторить операцию [y/n]?"
+
 ```Commit:d330c29```
 
 - Изменение имен в Caesar
-  * get_encryption_char => __get_encryption_char (приватный метод)
-  * get_decryption_char => __get_decryption_char (приватный метод)
-  * get_index => __get_index (приватный метод)
+    * get_encryption_char => __get_encryption_char (приватный метод)
+    * get_decryption_char => __get_decryption_char (приватный метод)
+    * get_index => __get_index (приватный метод)
 
 ```Commit:03df9fd```
 
