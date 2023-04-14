@@ -23,3 +23,15 @@
 * x – Позиция реального символ.
 * n – Количество позиций на которые мы хотим сдвинуть символ x.
 * y - Количество букв в алфавите.
+
+```
+git clone https://github.com/Ivandrobyshevv/Caesar-s-cipher
+```
+
+```
+pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
+```
