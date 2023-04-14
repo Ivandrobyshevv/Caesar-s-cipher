@@ -1,4 +1,3 @@
-import re
 from typing import Union
 
 from src.db import ALFABET, OPERATIONS
